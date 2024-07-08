@@ -20,6 +20,7 @@ function App() {
 
     setLoadingInterceptor({ showLoading, hideLoading });
     
+    
   }, []);
 
   return (
