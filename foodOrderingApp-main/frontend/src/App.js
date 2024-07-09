@@ -16,6 +16,8 @@ function App() {
 
   const { showLoading, hideLoading } = useLoading();
 
+  
+
   useEffect(() => {
 
     setLoadingInterceptor({ showLoading, hideLoading });
